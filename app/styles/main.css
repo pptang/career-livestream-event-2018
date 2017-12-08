@@ -201,7 +201,7 @@ body.noscroll {
 
 .menu__logo {
   height: 75px;
-  background-image: url('./images/WIJ_logo3.png');
+  background-image: url('../images/WIJ_logo3.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -223,7 +223,7 @@ body.noscroll {
   height: 100%;
   position: absolute;
   z-index: 1;
-  background-image: url('./images/top.png');
+  background-image: url('../images/top.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
