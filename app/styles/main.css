@@ -488,14 +488,17 @@ body.noscroll {
 }
 
 .member {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 
 .member-item {
+  display: inline-block;
+  margin: 0;
   width: calc(100% / 6);
   padding-top: calc(100% / 6);
   position: relative;
+  margin-right: -4px;
   /* cursor: pointer; */
 }
 
@@ -538,9 +541,8 @@ body.noscroll {
 .member-item:nth-child(1) {
   background-color: #a60000;
   color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+  margin-right: -4px;
 }
 
 /* Sponsor  */
