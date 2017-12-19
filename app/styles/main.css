@@ -215,6 +215,7 @@ body.noscroll {
   width: 100%;
   padding-bottom: 30px;
   transition: all 1s ease-in-out;
+  min-height: 700px;
 }
 
 .top:before {
@@ -594,7 +595,7 @@ body.noscroll {
 }
 
 .alliance img {
-  height: 60px;
+  height: 100px;
 }
 
 .footer {
