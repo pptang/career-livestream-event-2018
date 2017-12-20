@@ -631,7 +631,7 @@ body.noscroll {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 50px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -647,7 +647,7 @@ body.noscroll {
   background-color: #fefefe;
   margin: auto;
   width: 660px;
-	max-height: 600px;
+	max-height: 500px;
   overflow-y: scroll;
   padding-bottom: 50px;
 }
@@ -779,6 +779,8 @@ body.noscroll {
 .modal__column-article-content {
   margin-left: 50px;
   margin-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .modal__column-photo {
@@ -965,6 +967,12 @@ body.noscroll {
 
   /* End Hamburger Menu  */
 
+  .top {
+    min-height: 0;
+  }
+  .top__body-title {
+    padding-top: 125px;
+  }
   .top__body-h2 {
     margin-top: 75px;
     font-size: 15px;
@@ -1073,26 +1081,25 @@ body.noscroll {
     width: 50%;
   }
 
+  .column {
+    padding-top: 50px;
+  }
+
   .column__header {
     height: 150px;
   }
 
-  .column__header-right {
-    display: none;
+  .column__title {
+    font-size: 36px;
+    letter-spacing: 3px;
   }
 
-  .column__header-left {
-    width: 100%;
+  .column__tab-container {
+    width: 350px;
   }
 
-  .column__header-left-body > h3 {
-    font-size: 28px;
-    letter-spacing: 2px;
-  }
-
-  .column__header-left-body > span {
-    font-size: 14px;
-    letter-spacing: 1px;
+  .column__tab-item {
+    width: 100px;
   }
 
   .column__list {
@@ -1120,14 +1127,40 @@ body.noscroll {
     width: 50%;
   }
 
+  .modal__header-title-box {
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    line-height: 0;
+  }
 
+  .modal__column-title {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .modal__column-photo {
+    width: 100%;
+    height: auto;
+  }
+
+  .modal__column-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+
+  .modal__column-article-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .footer {
     height: 75px;
   }
 
 	.modal__member-content, .modal__column-content, .modal__close {
-		width: 90%;
-		padding: 20px;
+    width: 90%;
+    padding-bottom: 0;
 	}
 
 	#ytplayer, .modal__speaker-content {
