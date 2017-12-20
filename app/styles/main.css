@@ -632,7 +632,6 @@ body.noscroll {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 50px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -647,8 +646,8 @@ body.noscroll {
 	box-sizing: border-box;
   background-color: #fefefe;
   margin: auto;
-  width: 660px;
-	max-height: 500px;
+  width: 100%;
+	height: 100%;
   overflow-y: scroll;
   padding-bottom: 50px;
 }
