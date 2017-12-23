@@ -130,9 +130,11 @@ $(document).ready(function () {
 
   $('.menu-wrapper a').click(function () {
     $('.navbar__menu').click();
-    $('body').animate({
-      scrollTop: $($(this).attr('href')).offset().top
-    }, 500);
-    return false;
+    // const targetSection = $($(this).attr('href'));
+    // console.log(targetSection.offset().top);
+    // $('body').animate({
+    //   scrollTop: targetSection.offset().top
+    // }, 500);
+    // return false;
   });
 });

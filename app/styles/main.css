@@ -484,6 +484,11 @@ body.noscroll {
   letter-spacing: 1px;
 }
 
+.speaker_section-comingSoon {
+  font-size: 36px;
+  font-style: italic;
+}
+
 /* Team */
 .team__poster {
   width: 100%;
@@ -591,12 +596,12 @@ body.noscroll {
 .alliance {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  width: 360px;
 }
 
 .alliance img {
-  height: 100px;
+  height: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .footer {
