@@ -1212,4 +1212,12 @@ body.noscroll {
     padding-right: 0;
     align-items: center;
   }
+
+  .alliance {
+    justify-content: center;
+  }
+
+  .alliance img {
+    height: 100px;
+  }
 }
