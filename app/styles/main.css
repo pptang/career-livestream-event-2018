@@ -201,11 +201,7 @@ body.noscroll {
 }
 
 .menu__logo {
-  height: 75px;
-  background-image: url('../images/WIJ_logo3.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  width: 240px;
 }
 
 /* End Toggle Menu overlay  */
@@ -345,7 +341,6 @@ body.noscroll {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
   padding-top: 30px;
   font-weight: bold;
   letter-spacing: 3px;
@@ -392,8 +387,8 @@ body.noscroll {
 }
 
 .column__title {
-  padding-bottom: 20px;
-  font-size: 48px;
+  padding-bottom: 80px;
+  font-size: 36px;
   font-weight: bold;
   letter-spacing: 6px;
 }
@@ -409,8 +404,8 @@ body.noscroll {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 125px;
-  height: 40px;
+  width: 100px;
+  height: 30px;
   background-color: #9a9a9a;
   color: #ffffff;
   cursor: pointer;
@@ -651,8 +646,7 @@ body.noscroll {
 	box-sizing: border-box;
   background-color: #fefefe;
   margin: auto;
-  width: 100%;
-	height: 100%;
+  width: 50%;
   overflow-y: scroll;
   padding-bottom: 50px;
 }
@@ -808,8 +802,7 @@ body.noscroll {
 
 .modal__column-text {
 	font-size: 16px;
-  letter-spacing: 6px;
-  line-height: 1.5;
+  line-height: 3;
 }
 
 .modal__speaker-content {
