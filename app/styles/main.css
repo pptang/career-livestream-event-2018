@@ -438,7 +438,7 @@ body.noscroll {
   border: 2px solid #a60000;
 }
 
-.column-content__item:nth-child(3n-1) {
+.column-content__container a:nth-child(3n-1) {
   margin-left: 20px;
   margin-right: 20px;
 }
