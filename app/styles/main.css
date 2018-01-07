@@ -52,6 +52,36 @@ a {
   text-decoration: none;
 }
 
+/* Animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bump {
+  0% {
+      top: 0;
+  }
+  5% {
+      top: 3px;
+  }
+  10% {
+      top:0;
+  }
+  100% {
+      top:0;
+  }
+}
+
+/* Main Body */
+
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #ffffff;
@@ -360,10 +390,15 @@ body.noscroll {
   margin-bottom: 125px;
   background-color: #a60000;
   cursor: pointer;
+  animation: bump 2s linear 0s infinite;
+  position: relative;
 }
 
 .introduction__signup-btn:hover, .introduction__signup-btn:active {
   background-color: #b60000;
+  /* animation: pulse 1s ease 0s infinite normal; */
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
 }
 
 .introduction__signup-btn-text {
