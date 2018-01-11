@@ -189,8 +189,8 @@ body.noscroll {
   flex-direction: column;
   align-items: flex-end;
   height: 700px;
-  padding-top: 100px;
-  padding-right: 70px;
+  padding-top: 50px;
+  padding-right: 50px;
   position: absolute;
   top: 50px;
   left: 0;
@@ -201,38 +201,43 @@ body.noscroll {
   transition: opacity .6s ease-in-out;
 }
 
- #menu-checkbox:checked ~ .navbar .menu-wrapper {
+#menu-checkbox:checked ~ .navbar .menu-wrapper {
   opacity: 1;
-  -webkit-transition: opacity .6s ease-in-out;
-    -moz-transition: opacity .6s ease-in-out;
-    -o-transition: opacity .6s ease-in-out;
-    transition: opacity .6s ease-in-out;
+  transition: opacity .6s ease-in-out;
+}
+
+#menu-checkbox:checked ~ .introduction__signup-btn {
+  display: none;
 }
 
 .menu__title {
-  width: 240px;
-  height: 40px;
+  width: 180px;
+  height: 30px;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid rgba(255, 255, 255, 0.75);
 }
 
 .menu__icon-wrapper {
-  width: 240px;
+  width: 180px;
   display: flex;
   flex-direction: column;
 }
 
 .menu__icon-wrapper i {
   color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 7px;
+}
+
+.menu__icon-wrapper a:last-child {
+  margin-top: 50px;
 }
 
 .menu__logo {
-  width: 240px;
+  width: 180px;
 }
 
 /* End Toggle Menu overlay  */
