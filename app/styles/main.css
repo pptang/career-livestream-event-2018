@@ -346,7 +346,6 @@ body.noscroll {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 30px;
 }
 
 .facebook {
@@ -378,14 +377,20 @@ body.noscroll {
   flex-direction: column;
   justify-content: space-around;
   padding-top: 30px;
-  font-weight: bold;
   letter-spacing: 3px;
   width: 70%;
 }
 
 .introduction__content > p {
-  line-height: 4;
+  line-height: 2;
   font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.introduction__content > p:first-child {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 4;
 }
 
 .introduction__signup-btn {
@@ -425,13 +430,13 @@ body.noscroll {
   padding-top: 75px;
   padding-bottom: 90px;
   align-items: center;
-  background-color: #eeeeee;
+  background-color: #dddddd;
   width: 100%;
   transition: all .4s ease-in-out;
 }
 
 .column__title {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   font-size: 36px;
   font-weight: bold;
   letter-spacing: 6px;
@@ -440,6 +445,7 @@ body.noscroll {
 .column__tab-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 430px;
   height: 45px;
 }
@@ -450,6 +456,8 @@ body.noscroll {
   align-items: center;
   width: 100px;
   height: 30px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
   background-color: #9a9a9a;
   color: #ffffff;
   cursor: pointer;
@@ -598,17 +606,17 @@ body.noscroll {
   flex-direction: column;
   align-items: center;
   height: 400px;
-  padding-top: 75px;
+  padding-top: 125px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
 
 .sponsor__header {
-  padding-bottom: 65px;
+  padding-bottom: 20px;
 }
 
 .sponsor__title {
-  padding-bottom: 20px;
+  margin-bottom: 60px;
   font-size: 48px;
   font-weight: bold;
   letter-spacing: 6px;
@@ -617,10 +625,11 @@ body.noscroll {
 .sponsor__subtitle {
   display: flex;
   justify-content: center;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .sponsor__logo {
@@ -637,19 +646,22 @@ body.noscroll {
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  margin-bottom: 75px;
 }
 
 .alliance a {
+  display: flex;
+  align-items: center;
   position: relative;
   cursor: pointer;
 }
 
-.alliance a:hover .tooltiptext {
+/* .alliance a:hover .tooltiptext {
   visibility: visible;
-}
+} */
 
 .alliance img {
-  height: 200px;
+  height: 75px;
   margin-left: 20px;
   margin-right: 20px;
 }
