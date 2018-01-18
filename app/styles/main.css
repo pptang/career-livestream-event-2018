@@ -237,6 +237,10 @@ body.noscroll {
   margin-top: 50px;
 }
 
+.mobile__signup-btn {
+	display: none;
+}
+
 .menu__logo {
   width: 180px;
 }
@@ -801,7 +805,7 @@ ul.main {
 }
 
 .wij-logo {
-
+	height: 120px;
 }
 
 .facebook-footer {
@@ -1096,7 +1100,7 @@ ul.main {
   }
 
   .wij-logo {
-    height: 70px;
+    height: 90px;
   }
 }
 
@@ -1116,18 +1120,42 @@ ul.main {
   }
 
   .menu__icon-wrapper {
-    width: 125px;
+    width: 100px;
     flex-direction: row;
+		justify-content: center;
   }
 
   .menu__icon-wrapper i {
     margin-right: 10px;
   }
 
+	.mobile__signup-btn {
+		display: flex;
+		background-color: #ffffff;
+		color: #a60000;
+		height: 100px;
+		width: 100px;
+		border-radius: 50px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.mobile__signup-btn:hover {
+		background-color: rgba(0, 0, 0, 0.2);
+		color: white;
+	}
+
+	.mobile__signup-btn-text {
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+
   .menu__title {
-    width: 125px;
+    width: 100px;
     font-size: 18px;
     letter-spacing: 2px;
+		display: flex;
+		justify-content: center;
   }
 
   .menu__logo {
@@ -1170,6 +1198,52 @@ ul.main {
   }
 
   /* End Hamburger Menu  */
+
+	.introduction-description {
+		margin-bottom: 20px;
+	}
+
+	.introduction__content > p:first-child {
+		line-height: 1.5;
+		padding-top: 30px;
+		margin-bottom: 20px;
+	}
+
+	ul.main {
+		margin-bottom: 75px;
+	}
+
+	.date h3 {
+		font-size: 16px;
+	}
+
+	.events-detail li {
+		padding: 5px;
+		line-height: 20px;
+	}
+
+	.event-time {
+		font-size: 14px;
+	}
+
+	.event-name {
+		font-size: 14px;
+	}
+
+	.team__poster-wrapper:before {
+		height: 300px;
+	}
+
+	.team__about {
+		letter-spacing: 2px;
+		margin-left: 20px;
+		transform: none;
+		padding-top: 30px;
+	}
+
+	.team__about p {
+		display: none;
+	}
 
   .top {
     min-height: 0;
@@ -1231,6 +1305,7 @@ ul.main {
     width: 100px;
     border-radius: 50px;
     margin-bottom: 100px;
+		display: none;
   }
 
   .introduction__signup-btn-text {
@@ -1391,7 +1466,7 @@ ul.main {
   }
 
   .wij-logo {
-    height: 50px;
+    height: 70px;
   }
 
   .member-item {
@@ -1407,10 +1482,15 @@ ul.main {
   }
 
   .alliance {
-    justify-content: center;
   }
 
   .alliance img {
-    height: 100px;
+		padding: 10px;
+		margin: 0;
+    height: 30px;
   }
+
+	.shiaoshin-description {
+		font-size: 10px;
+	}
 }
