@@ -383,7 +383,6 @@ body.noscroll {
   flex-direction: column;
   justify-content: space-around;
   padding-top: 30px;
-  letter-spacing: 3px;
   width: 70%;
 }
 
@@ -616,7 +615,6 @@ ul.main {
 	position: absolute;
 	margin-left: 50%;
 	transform: translateX(-50%);
-	font-style: italic;
 	font-size: 12px;
 	padding-top: 100px;
 	z-index: 2;
@@ -635,7 +633,7 @@ ul.main {
 
 .team__poster-wrapper {
 	width: 100%;
-	min-height: 300px;
+	min-height: 800px;
 	position: relative;
 }
 
@@ -1228,6 +1226,10 @@ ul.main {
 
 	.event-name {
 		font-size: 14px;
+	}
+
+	.team__poster-wrapper {
+		min-height: 300px;
 	}
 
 	.team__poster-wrapper:before {
