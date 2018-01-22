@@ -26,8 +26,26 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
 
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXVBC3W');</script>
+    <!-- End Google Tag Manager -->
+
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&autoLogAppEvents=1&version=v2.11&appId=1831548406918557';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -91,45 +109,91 @@
         </li>
         <li class="events">
           <ul class="events-detail">
-            <li>
-              <a href="#">
-                <span class="event-time">14:30pm - 15:35</span>
-                <span class="event-name">開場</span>
-                <br />
-                <span class="event-location">Mark</span>
-              </a>
+            <li class="events__title-wrapper">
+              <div class="taiwan-icon"></div>
+              <span class="icon-description">台灣時間</span>
+              <div class="japan-icon"></div>
+              <span class="icon-description">日本時間</span>
             </li>
-            <li>
-              <a href="#">
-                <span class="event-time">15:35 - 16:05</span>
-                <span class="event-name">面試關聯（進入公司的第一步）</span>
-                <br />
-                <span class="event-location">XXX</span>
-              </a>
+            <li class="events__body-wrapper">
+              <div class="time-wrapper">
+                <div class="icon-wrapper">
+                  <div class="taiwan-icon"></div>
+                  <span class="event-time">14:00pm - 14:05</span>
+                </div>
+                <div class="icon-wrapper">
+                  <div class="japan-icon"></div>
+                  <span class="event-time">15:00pm - 15:05</span>
+                </div>
+              </div>
+              <span class="event-name">Opening</span>
+              <div class="event-location">Mark - WorkLifeinJapan創辦人</div>
             </li>
-            <li>
-              <a href="#">
-                <span class="event-time">15:05 - 15:35</span>
-                <span class="event-name">給年輕人進入公司的話 （進入公司後，實際會一起工作的上司怎麼看一起工作的年輕人）</span>
-                <br />
-                <span class="event-location">XXX</span>
-              </a>
+            <li class="events__body-wrapper">
+              <div class="time-wrapper">
+                <div class="icon-wrapper">
+                  <div class="taiwan-icon"></div>
+                  <span class="event-time">14:05pm - 14:20</span>
+                </div>
+                <div class="icon-wrapper">
+                  <div class="japan-icon"></div>
+                  <span class="event-time">15:05pm - 15:20</span>
+                </div>
+              </div>
+              <span class="event-name">在日台灣人統計</span>
+              <div class="event-location">Victor - WorkLifeinJapan創辦人</div>
             </li>
-            <li>
-              <a href="#">
-                <span class="event-time">16:05 - 16:20</span>
-                <span class="event-name">Victor Speech</span>
-                <br />
-                <span class="event-location">Victor</span>
-              </a>
+            <li class="events__body-wrapper">
+              <div class="time-wrapper">
+                <div class="icon-wrapper">
+                  <div class="taiwan-icon"></div>
+                  <span class="event-time">14:20pm - 14:50</span>
+                </div>
+                <div class="icon-wrapper">
+                  <div class="japan-icon"></div>
+                  <span class="event-time">15:20pm - 15:50</span>
+                </div>
+              </div>
+              <span class="event-name">獲取日本職場的入場卷</span>
+              <div>
+                <div class="event-location">Shion - 歐美IT企業人資</div>
+                <div class="event-location">Eric - 日本IT行銷企業亞太地區經理</div>
+              </div>
             </li>
-            <li>
-              <a href="#">
-                <span class="event-time">16:20 - 16:55</span>
-                <span class="event-name">來日心得分享（前輩們實際工作經驗談）</span>
-                <br />
-                <span class="event-location">XXX</span>
-              </a>
+            <li class="events__body-wrapper">
+              <div class="time-wrapper">
+                <div class="icon-wrapper">
+                  <div class="taiwan-icon"></div>
+                  <span class="event-time">14:50pm - 15:25</span>
+                </div>
+                <div class="icon-wrapper">
+                  <div class="japan-icon"></div>
+                  <span class="event-time">15:50pm - 16:25</span>
+                </div>
+              </div>
+              <span class="event-name">找到屬於日本職場的生存之道</span>
+              <div>
+                <div class="event-location">Kenwa - 歐美IT企業技術理事</div>
+                <div class="event-location">Andy - 歐美生化企業亞太地區總監</div>
+              </div>
+            </li>
+            <li class="events__body-wrapper">
+              <div class="time-wrapper">
+                <div class="icon-wrapper">
+                  <div class="taiwan-icon"></div>
+                  <span class="event-time">15:25pm - 15:55</span>
+                </div>
+                <div class="icon-wrapper">
+                  <div class="japan-icon"></div>
+                  <span class="event-time">16:25pm - 16:55</span>
+                </div>
+              </div>
+              <span class="event-name">我的選擇，我的答案</span>
+              <div>
+                <div class="event-location">Wanson - 日本設計企業設計總監</div>
+                <div class="event-location">I-Chun - 歐美企業資深投資分析顧問</div>
+                <div class="event-location">Humi - 歐美銀行法規事務主管</div>
+              </div>
             </li>
           </ul>
         </li>
@@ -138,6 +202,12 @@
 
     <div class="introduction__signup-btn">
       <span class="introduction__signup-btn-text">馬上報名</span>
+    </div>
+
+    <div id="fbShareBtn" class="fb-share-button" data-size="large">
+      <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse">
+        Share
+      </a>
     </div>
 
     <div id="column" class="column">
@@ -452,6 +522,7 @@
       </div>
     </div>
 
+    <div class="fb-page"></div>
 
     <div id="sponsor" class="sponsor">
       <!-- <h2 class="sponsor__title">
@@ -552,6 +623,11 @@
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXVBC3W"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->

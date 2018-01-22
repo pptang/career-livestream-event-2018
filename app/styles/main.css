@@ -453,7 +453,7 @@ ul.main {
 }
 
 .events-detail {
-  max-width: 550px;
+  max-width: 700px;
 }
 
 .events-detail li{
@@ -461,6 +461,60 @@ ul.main {
   border-bottom: 1px dashed #ccc;
   line-height: 22px;
   transition: ease .4s all;
+	display: flex;
+	align-items: center;
+}
+
+.time-wrapper {
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.icon-wrapper {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.taiwan-icon {
+	width: 20px;
+	height: 20px;
+	position: relative;
+}
+
+.taiwan-icon:before {
+	content: '';
+	background-image: url('../images/icon_taiwan.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.japan-icon {
+	width: 20px;
+	height: 20px;
+	position: relative;
+}
+
+.japan-icon:before {
+	content: '';
+	background-image: url('../images/icon_japan.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.icon-description {
+	margin-right: 20px;
+	padding-left: 5px;
 }
 
 /* .events-detail li:hover {
@@ -469,7 +523,16 @@ ul.main {
 } */
 
 .event-time {
-  font-weight: 900;
+	margin-left: 10px;
+	letter-spacing: 1.1px;
+	font-size: 14px;
+}
+
+.event-name {
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+	width: 230px;
 }
 
 .events-detail li a {
@@ -481,9 +544,23 @@ ul.main {
 }
 
 .event-location {
-    font-size: 12px;
-    color: #a60000;
-    margin-left: 70px;
+  color: #a60000;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 1.1px;
+	font-size: 14px;
+}
+
+/* Facebook share button */
+
+#fbShareBtn {
+	display: flex;
+	justify-content: center;
+}
+
+#fbShareBtn .fb-xfbml-parse-ignore {
+	font-size: 24px;
 }
 
 /* End of Schedule */
@@ -1267,9 +1344,18 @@ ul.main {
 		font-size: 16px;
 	}
 
+	.events {
+		margin-left: 15px;
+		padding-left: 15px;
+	}
+
+	.events-detail {
+		max-width: 100%;
+	}
+
 	.events-detail li {
-		padding: 5px;
 		line-height: 20px;
+		justify-content: center;
 	}
 
 	.event-time {
@@ -1277,7 +1363,18 @@ ul.main {
 	}
 
 	.event-name {
-		font-size: 14px;
+		padding-top: 15px;
+		width: auto;
+	}
+
+	.event-location {
+		letter-spacing: 0;
+		font-size: 12px;
+	}
+
+	.events__body-wrapper {
+		flex-direction: column;
+		align-items: flex-start;
 	}
 
 	.team__poster-wrapper {
