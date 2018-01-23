@@ -207,7 +207,7 @@ body.noscroll {
   transition: display .6s ease-in-out;
 }
 
-#menu-checkbox:checked ~ .introduction__signup-btn {
+#menu-checkbox:checked ~ a > .introduction__signup-btn {
   display: none;
 }
 
@@ -834,7 +834,7 @@ ul.main {
 	margin-left: 50%;
 	transform: translateX(-50%);
 	font-size: 12px;
-	padding-top: 100px;
+	padding-top: 50px;
 	z-index: 2;
 }
 
