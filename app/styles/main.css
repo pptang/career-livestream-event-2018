@@ -642,6 +642,41 @@ ul.main {
 .column-content__image {
   height: 250px;
   margin-bottom: 20px;
+	position: relative;
+}
+
+.column-content__image:before {
+	content: '';
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#column_1_pic:before {
+	background-image: url('../images/event_3.jpg');
+}
+
+#column_2_pic:before {
+	background-image: url('../images/event_4.jpg');
+}
+
+#column_3_pic:before {
+	background-image: url('../images/event_5.jpg');
+}
+
+#column_4_pic:before {
+	background-image: url('../images/event_7.png');
+}
+
+#column_5_pic:before {
+	background-image: url('../images/event_6.jpg');
+}
+
+#column_6_pic:before {
+	background-image: url('../images/event_8.jpg');
 }
 
 .column-content__label {
@@ -693,7 +728,7 @@ ul.main {
 }
 
 .speaker-content__image {
-  height: 250px;
+  width: 100%;
   margin-bottom: 20px;
 }
 
