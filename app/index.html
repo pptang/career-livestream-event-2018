@@ -37,15 +37,13 @@
   </head>
   <body>
     <div id="fb-root"></div>
-    <script>
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&autoLogAppEvents=1&version=v2.11&appId=1831548406918557';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=1717679234916559&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -214,7 +212,7 @@
           <div class="japan-icon"></div>
           <span class="introduction__location-open-time__text">17:00 - 18:00</span>
         </div>
-        <p>地址：<a href="https://goo.gl/rtuRRk">〒108-0073  東京都港区三田1-4-1 住友不動産麻布十番ビル4階 (株式会社エウレカ / eureka, Inc.)</a></p>
+        <p>地址：<a class="introduction__location-link" href="https://goo.gl/rtuRRk">〒108-0073  東京都港区三田1-4-1 住友不動産麻布十番ビル4階 (株式会社エウレカ / eureka, Inc.)</a></p>
       </div>
     </div>
 
@@ -223,13 +221,13 @@
         <span class="introduction__signup-btn-text">馬上報名</span>
       </div>
     </a>
-
-    <div id="fbShareBtn" class="fb-share-button" data-size="large">
-      <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse">
-        Share
-      </a>
+    <div class="fb-section">
+      <div class="fb-share-button" data-layout="button_count" data-size="large">
+        <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse">
+          Share
+        </a>
+      </div>
     </div>
-
     <div id="column" class="column">
       <header class="column">
         <!-- <h2 class="column__title">
@@ -575,6 +573,27 @@
       <p class="sponsor__subtitle">
         合作媒體
       </p>
+
+      <div class="alliance">
+          <!-- <img src="worklifeinjapan.png" /> -->
+        <a id="shiaoshin" href="http://bit.ly/2DuDat6" target="_blank">
+          <img alt="test" src="images/cheers.jpg" />
+          <span class="shiaoshin-description">Cheers 快樂工作人</span>
+        </a>
+        <a href="http://bit.ly/2n2dAWa" target="_blank">
+          <img src="images/cool_teenager.png" />
+          <span class="shiaoshin-description">酷青酷業</span>
+        </a>
+      </div>
+    </div>
+    <div class="fb-page-plugin">
+      <div
+        class="fb-page"
+        data-href="https://www.facebook.com/worklifeinjapan/"
+        data-tabs=""
+        data-width=""
+        data-height=""
+      ></div>
     </div>
     <div class="footer">
       <a href="http://worklifeinjapan.net/" target="_blank">
