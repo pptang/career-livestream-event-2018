@@ -542,6 +542,7 @@ ul.main {
 
 	.introduction__location-highlight {
 		color: #a60000;
+		text-decoration: underline;
 	}
 
 	.introduction__location-info-first-paragraph {
