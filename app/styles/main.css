@@ -205,10 +205,13 @@ body.noscroll {
 	display: flex;
   opacity: 1;
   transition: display .6s ease-in-out;
+	height: 100vh;
+	overflow: hidden;
 }
 
 #menu-checkbox:checked ~ a > .introduction__signup-btn {
   display: none;
+	overflow: auto;
 }
 
 .menu__title {
@@ -382,7 +385,7 @@ body.noscroll {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-top: 30px;
+  padding-top: 60px;
   width: 70%;
 }
 
@@ -689,7 +692,8 @@ ul.main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 100%;
+  /* max-width: 100%; */
+	max-width: 1200px;
 }
 
 .column-content__item {
@@ -763,7 +767,8 @@ ul.main {
   width: 85px;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+	font-size: 13px;
 }
 
 .column-content__summary-text {
@@ -1557,7 +1562,7 @@ img#cool_teenager {
 
 	.introduction__content > p:first-child {
 		line-height: 1.5;
-		padding-top: 30px;
+		padding-top: 50px;
 		margin-bottom: 20px;
 	}
 
