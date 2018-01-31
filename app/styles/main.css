@@ -431,6 +431,29 @@ body.noscroll {
   color: #ffffff;
 }
 
+/* Top Page signup button */
+.top-page__signup-btn {
+	display: none;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	background-color: #a60000;
+	cursor: pointer;
+}
+
+.top-page__signup-btn:hover, .top-page__signup-btn:active {
+  background-color: #b60000;
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+}
+
+.top-page__signup-btn-text {
+  margin: auto;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
 /* Schedule */
 
 ul.main {
@@ -1507,6 +1530,10 @@ img#cool_teenager {
 		letter-spacing: 1px;
 	}
 
+	.top-page__signup-btn {
+		display: flex;
+	}
+
   .menu__title {
     width: 100px;
     font-size: 18px;
@@ -1606,7 +1633,7 @@ img#cool_teenager {
     min-height: 0;
   }
   .top__body-title {
-    padding-top: 125px;
+    padding-top: 100px;
   }
   .top__body-h2 {
     margin-top: 75px;
