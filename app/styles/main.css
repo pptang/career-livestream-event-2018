@@ -581,11 +581,19 @@ ul.main {
 	}
 
 	.introduction__location-open-time__title {
-		margin-right: 5px;
+		width: 75px;
 	}
 
 	.introduction__location-open-time__text {
 		margin-left: 5px;
+	}
+
+	.introduction__location-open-time__price > span {
+		margin-right: 15px;
+	}
+
+	.introduction__semi-colon {
+		margin-right: 5px;
 	}
 
 	.introduction__location-link {
