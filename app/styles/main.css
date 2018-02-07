@@ -1048,6 +1048,7 @@ ul.main {
   align-items: center;
   position: relative;
   cursor: pointer;
+	margin-bottom: 30px;
 }
 
 /* .alliance a:hover .tooltiptext {
@@ -1880,6 +1881,10 @@ img#cool_teenager {
 
   .alliance {
   }
+
+	.alliance a {
+		margin-bottom: 5px;
+	}
 
   .alliance img {
 		padding: 10px;
