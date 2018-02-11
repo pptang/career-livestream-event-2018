@@ -97,8 +97,8 @@
       <!-- <a href="https://www.facebook.com/worklifeinjapan/" target="_blank"><img class="facebook" src="./images/facebook.png" /></a>
       <a href="https://www.youtube.com/channel/UCM0SQUVSu-bnspF1CZ4qZbw" target="_blank"><img class="youtube" src="./images/youtube_light.png" /></a> -->
     </div>
-    <div class="introduction">
-      <div class="introduction-description">
+    <div id="introduction" class="introduction">
+      <div id="schedule" class="introduction-description">
         <article class="introduction__content">
           <p>人生的結果大概是由無數個小小的決定累積而成。</p>
           <p>2018年，全新的開始。</p>
@@ -107,7 +107,7 @@
           <p>如果你也能把握眼前出現的機會，試著顛覆一次也好，讓自己變得更加不同，相信會是一場充滿蛻變的旅程。</p>
         </article>
       </div>
-      <ul id="schedule" class="main">
+      <ul class="main">
         <li class="date">
           <h3>March 17, 2018</h3>
         </li>
@@ -207,6 +207,10 @@
         </li>
       </ul>
       <div class="introduction__location-info">
+        <h2 class="introduction__location-info-title">【 Live線上收看 】</h2>
+        <p class="introduction__location-info-first-paragraph">WIJ Youtube頻道，活動前將寄送專屬網址。
+          <a href="https://goo.gl/forms/N4K6vdE5z9hSGiu13" target="_blank"><span class="introduction__location-highlight">按此報名</span></a>
+        </p>
         <h2 class="introduction__location-info-title">【 東京現場參與 】</h2>
         <p class="introduction__location-info-first-paragraph">希望面對面與講者交流？想知道更多在日台灣人的職涯心得？想實際走訪日本知名新創辦公室？
           今年我們與快速成長的株式会社エウレカ合作，將同步開放現場售票並提供會後交流時間。
@@ -617,7 +621,7 @@
         合作學校
       </p>
 
-      <div class="alliance">
+      <div id="alliance" class="alliance">
           <!-- <img src="worklifeinjapan.png" /> -->
         <a href="" target="_blank">
           <img id="test" src="images/keio.jpg" />
@@ -696,13 +700,21 @@
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+    (function(b, o, i, l, e, r) {
+  b.GoogleAnalyticsObject = l;
+  b[l] ||
+    (b[l] = function() {
+      (b[l].q = b[l].q || []).push(arguments);
+    });
+  b[l].l = +new Date();
+  e = o.createElement(i);
+  r = o.getElementsByTagName(i)[0];
+  e.src = 'https://www.google-analytics.com/analytics.js';
+  r.parentNode.insertBefore(e, r);
+})(window, document, 'script', 'ga');
+ga('create', 'UA-XXXXX-X');
+ga('send', 'pageview');
+</script>
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXVBC3W"
