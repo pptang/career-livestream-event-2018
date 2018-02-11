@@ -57,7 +57,7 @@
       </label>
       <ul class="menu-wrapper">
         <li class="menu__title">
-          <a href="#schedule">活動流程</a>
+          <a href="#introduction">活動流程</a>
         </li>
         <li class="menu__title">
           <a href="#column">活動導讀</a>
@@ -81,7 +81,7 @@
         </a>
       </ul>
     </div>
-    <div class="top">
+    <div id="top" class="top">
       <div class="top__body">
         <img class="top__body-title" src="./images/top-title.png" />
       </div>
@@ -93,12 +93,12 @@
         </a>
       </div>
     </div>
-    <div class="external__footer-sns">
+    <!-- <div class="external__footer-sns"> -->
       <!-- <a href="https://www.facebook.com/worklifeinjapan/" target="_blank"><img class="facebook" src="./images/facebook.png" /></a>
       <a href="https://www.youtube.com/channel/UCM0SQUVSu-bnspF1CZ4qZbw" target="_blank"><img class="youtube" src="./images/youtube_light.png" /></a> -->
-    </div>
+    <!-- </div> -->
     <div id="introduction" class="introduction">
-      <div id="schedule" class="introduction-description">
+      <div class="introduction-description">
         <article class="introduction__content">
           <p>人生的結果大概是由無數個小小的決定累積而成。</p>
           <p>2018年，全新的開始。</p>
@@ -107,7 +107,7 @@
           <p>如果你也能把握眼前出現的機會，試著顛覆一次也好，讓自己變得更加不同，相信會是一場充滿蛻變的旅程。</p>
         </article>
       </div>
-      <ul class="main">
+      <ul id="schedule" class="main">
         <li class="date">
           <h3>March 17, 2018</h3>
         </li>
@@ -232,6 +232,13 @@
         </div>
         <div class="introduction__location-open-time"><span class="introduction__location-open-time__title">地址</span><span class="introduction__semi-colon">：</span><a class="introduction__location-link" href="https://goo.gl/rtuRRk" target="_blank">〒108-0073  東京都港区三田1-4-1 住友不動産麻布十番ビル4階 (株式会社エウレカ / eureka, Inc.)</a></div>
       </div>
+      <div class="fb-section">
+        <div class="fb-share-button" data-layout="button_count" data-size="large">
+          <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse">
+            Share
+          </a>
+        </div>
+      </div>
     </div>
 
     <a href="https://goo.gl/forms/N4K6vdE5z9hSGiu13" target="_blank">
@@ -239,13 +246,7 @@
         <span class="introduction__signup-btn-text">馬上報名</span>
       </div>
     </a>
-    <div class="fb-section">
-      <div class="fb-share-button" data-layout="button_count" data-size="large">
-        <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse">
-          Share
-        </a>
-      </div>
-    </div>
+
     <div id="column" class="column">
       <header class="column">
         <!-- <h2 class="column__title">
@@ -631,7 +632,7 @@
         </a>
       </div>
     </div>
-    <div class="fb-page-plugin">
+    <div id="fbFanPage" class="fb-page-plugin">
       <div
         class="fb-page"
         data-href="https://www.facebook.com/worklifeinjapan/"
@@ -640,7 +641,7 @@
         data-height=""
       ></div>
     </div>
-    <div class="footer">
+    <div id="footer" class="footer">
       <a href="http://worklifeinjapan.net/?utm_source=eventpage&utm_medium=footer" target="_blank">
         <img class="wij-logo" src="./images/WIJ_logo2.png" />
       </a>
@@ -728,6 +729,7 @@ ga('send', 'pageview');
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
+    <!-- <script src="scripts/abTest.js"></script> -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>

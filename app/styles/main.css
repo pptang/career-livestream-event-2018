@@ -86,6 +86,8 @@ body {
   font-family: 'Raleway', sans-serif;
   background-color: #ffffff;
   position: relative;
+	display: flex;
+	flex-direction: column;
 }
 
 body.noscroll {
